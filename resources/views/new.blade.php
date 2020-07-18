@@ -25,3 +25,10 @@
         </p>
     </form>
 @endsection
+
+
+{{-- RewriteEngine On
+
+# Handle Authorization Header
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}] --}}
